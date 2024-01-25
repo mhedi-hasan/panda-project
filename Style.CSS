@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+ /* nav start  */
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li {
+    font-size: 24px;
+    margin-right: 21px;
+}
+nav ul input {
+    background-color: #dbd3d3e3;
+    border-radius: 18px;
+    font-size: 20px;
+    padding: 8px 30px;
+    width: 310px;
+    border: none;
+}
+nav {
+  margin: 10px 7%;
+  padding-top: 10px;
+}
+nav ul li:hover {
+    color: rgb(249, 0, 120);
+}
+
+/*  nav end*/
+
+/* section start */
+.section {
+    height: 450px;
+    width: 87%;
+    background-color: rgb(249, 210, 216);
+    margin: 0 auto;
+    border-radius: 18px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    
+}
+.section1 {
+    padding-left: 45px;
+}
+.section1 h1 {
+    font-size: 2.9rem;
+    padding-bottom: 20px;
+}
+.section1 p {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.section1 h2 {
+    color: rgb(249, 0, 120);
+    font-size: 2.2rem;
+    padding-bottom: 15px;
+}
+.section1 button {
+    font-size: 1.2rem;
+    height: 45px;
+    width: 145px;
+    color: white;
+    background-color: rgb(249, 0, 120);
+    border-radius: 15px;
+}
+.section1 button:hover {
+    background-color: white;
+    color: rgb(249, 0, 120);
+}
+.section2 img {
+    height: 380px;
+    width: 400px;
+    padding-left: 40px;
+}
+.section1, .section2 {
+    width: 50%;
+} 
+
+/* scetion end */
+h4 {
+    margin-left: 82px;
+    font-size: 2.2rem;
+    padding-top:  42px;
+    padding-bottom: 15px;
+}
+
+/* sections start */
+.section3 {
+    width: 87%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+.catagoris {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 19px;
+}
+.catagory {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    align-items: center;
+    padding: 13px;
+}
+.catagory img {
+    width: 37%;
+}
+.catagory h3 {
+    color: white;
+    font-size: 2rem;
+}
+.watch {
+    background-image: linear-gradient(#e68e31, #ffd019);
+}
+.Bag {
+    background-image: linear-gradient(#f72777,#ff5d9bec);
+}
+.Shoes {
+    background-image: linear-gradient(#0062ff,#7a52ff);
+}
+/* sections end */
+
+/* Shoes-section-start */
+.shoes-containar {
+    background-color: rgb(247, 250, 252);
+    padding-top: 20px;
+}
+.shoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    gap: 50px;
+    padding-bottom: 15px;
+}
+.shoe-box img {
+  height: 170px;
+  width: 280px;
+}
+.shoe-box {
+    border: 2px solid transparent;
+    border-radius: 18px;
+    height: 410px;
+    width: 58%;
+    background-color: rgb(233, 224, 224);
+    align-items: center;
+    text-align: center;
+}
+.shoes h2 {
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+.shoes p {
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+.shoes h6 {
+    font-size: 2.4rem;
+    padding-bottom: 12px;
+}
+.shoes .buy-button {
+    height: 38px;
+    width: 120px;
+    border: 1.4px solid rgb(75, 73, 73);
+    font-size: 1.3rem;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    border-radius: 6px;
+}
+.shoes .buy-button:hover{
+    background-color: rgb(201, 188, 188);
+    color: black;
+}
+/* .shoes-containar h5 {
+    font-size: 2.5rem;
+    padding-bottom: 27px;
+    padding-left: 86px;
+} */
+/* Shoes section-end */
+
+/* bag-containar-start */
+.bags-containar {
+    background-color: rgb(238, 241, 243);
+    padding-top: 20px;
+}
+.bags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+.sho-box img {
+  height: 250px;
+  width: 100%;
+}
+.sho-box {
+    border: 2px solid transparent;
+    border-radius: 18px;
+    height: 480px;
+    width: 58%;
+    background-color: rgb(235, 225, 225);
+    align-items: center;
+    text-align: center;
+}
+.sho-box h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.sho-box p {
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+.sho-box h6 {
+    font-size: 2.4rem;
+    padding-bottom: 10px;
+}
+.sho-box .buy-buttons {
+    height: 38px;
+    width: 120px;
+    border: 1.4px solid rgb(75, 73, 73);
+    font-size: 1.3rem;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    border-radius: 6px;
+}
+.sho-box .buy-buttons:hover{
+    background-color: rgb(201, 188, 188);
+    color: black;
+}
+/* .bags-containar h5 {
+    font-size: 2.5rem;
+    padding-bottom: 27px;
+    padding-left: 86px;
+} */
+.product-mes {
+    display: flex;
+    color: black;
+    font-size: 1.3rem;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.product-mes h6 {
+    font-size: 2.3rem;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+/* bag-containar-end  */
